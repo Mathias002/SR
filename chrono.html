@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+	<head>
+        <link href="chrono.css" rel="stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>Temps</title>
+</head>
+	 
+<body> 
+    <h2  name="affi" id="time">0:00:00:0</h2>
+    <form name="parametre">
+        <div>
+
+            <button class="glow-on-hover" type="button" name="lance"  value="Lancer" onclick="chrono();debut();">Lancer</button>
+            <button class="glow-on-hover" type="button" name="pause"  value="Pause" onclick="arret();" disabled="disabled">Pause</button>
+            <button class="glow-on-hover" type="button" name="zero"  value="Remettre &#224; z&#233;ro" onclick="arret();raz();effacer();" disabled="disabled">Remettre &#224; z&#233;ro</button>
+            <button class="glow-on-hover" type="button" name="interme"  value="Temps interm&#233;diaire" onclick="inter();" disabled="disabled">Temps interm&#233;diaire</button>
+            
+
+        </div>
+    
+    </form>
+    <div id="presenter">
+    <dl>
+    <dt> Temps 1</dt>
+    <dd id="interm1"> </dd>
+    <dt > Temps 2</dt>
+    <dd id="interm2"> </dd>
+    <dt> Temps 3</dt>
+    <dd id="interm3"> </dd>
+    <dt> Temps 4</dt>
+    <dd id="interm4"> </dd>
+    <dt> Temps 5</dt>
+    <dd id="interm5"> </dd>
+    </dl>
+    <input type="button" name="Effacer"  value="Effacer les temps interm&#233;diaire" onclick="effacer();debut();">
+
+    </div>
+
+    
+
+</body>
+<script type="text/javascript" src="chrono.js">
+
+</script>
+</html>
