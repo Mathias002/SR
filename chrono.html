@@ -7,19 +7,21 @@
 </head>
 	 
 <body> 
-    <h2  name="affi" id="time">0:00:00:0</h2>
+    <h2 id="time">0:00:00:0</h2>
+
     <form name="parametre">
-        <div>
 
-            <button class="glow-on-hover" type="button" name="lance"  value="Lancer" onclick="chrono();debut();">Lancer</button>
-            <button class="glow-on-hover" type="button" name="pause"  value="Pause" onclick="arret();" disabled="disabled">Pause</button>
-            <button class="glow-on-hover" type="button" name="zero"  value="Remettre &#224; z&#233;ro" onclick="arret();raz();effacer();" disabled="disabled">Remettre &#224; z&#233;ro</button>
-            <button class="glow-on-hover" type="button" name="interme"  value="Temps interm&#233;diaire" onclick="inter();" disabled="disabled">Temps interm&#233;diaire</button>
+        <div class="container">
+
+            <button id="start" class="item" type="button" name="lance"  value="Lancer" onclick="chrono();debut();">Lancer</button>
+            <button id="pause" class="item" type="button" name="pause"  value="Pause" onclick="arret();" disabled="disabled">Pause</button>
+            <button id="zero" class="item" type="button" name="zero"  value="Remettre &#224; z&#233;ro" onclick="arret();raz();effacer();" disabled="disabled">Remettre &#224; z&#233;ro</button>
+            <button id="interm" class="item" type="button" name="interme"  value="Temps interm&#233;diaire" onclick="inter();" disabled="disabled">Temps interm&#233;diaire</button>
             
-
         </div>
     
     </form>
+
     <div id="presenter">
     <dl>
     <dt> Temps 1</dt>
