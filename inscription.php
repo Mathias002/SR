@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Inscription";
+session_start();
 //include 'nav.php';  //C'était pour inclure le nav
 
 // Redirection vers l'index si l'utilisateur est déjà connecté
