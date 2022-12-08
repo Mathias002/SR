@@ -1,0 +1,99 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+body{
+font-family: 'Arial';
+color: #222;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/*-- A HREF --*/
+a {
+outline: none;
+text-decoration: none;
+}
+
+/*-- NIVEAU 1 --*/
+.niveau1{
+    background-image: url('../img/niveau1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;    
+}
+
+.niveau1 h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/*-- NIVEAU 2 --*/
+.niveau2{
+    background-image: url('../img/niveau2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.niveau2 h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/*-- NIVEAU 3 --*/
+.niveau3{
+    background-image: url('../img/niveau3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.niveau3 h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/*-- RECOMPENSE  --*/
+.recompense{
+    background-image: url('../img/recompense.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.recompense h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/*-- QR CODE --*/
+.qrcode{
+    background-image: url('../img/qrcode.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.qrcode h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
