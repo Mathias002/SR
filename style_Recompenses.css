@@ -16,7 +16,7 @@ body,html {
     margin: 5%;
     padding: 20px;
     background: whitesmoke;
-    width: fit-content;
+    width: 150px;
 }
 
 .recompense{
@@ -43,5 +43,5 @@ body,html {
 
 .nom{
     background: pink;
-    width: fit-content;
+    text-align: center;
 }
