@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.content-logo{
+    padding-top: 60%;
+    padding-left: 25%;
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+}
+
+.loading-text {
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loading-text::after {
+    display: inline-block;
+    animation: dotty steps(1,end) 2s infinite;
+    content: '';
+  }
+  
+  @keyframes dotty {
+      0%   { content: ''; }
+      25%  { content: '.'; }
+      50%  { content: '..'; }
+      75%  { content: '...'; }
+      100% { content: ''; }
+  }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
