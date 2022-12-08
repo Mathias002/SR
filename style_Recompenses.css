@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+body,html { 
+    min-height:100
+}
+
+.layout{
+    margin: 5%;
+    padding: 20px;
+    background: whitesmoke;
+    width: fit-content;
+}
+
+.recompense{
+    margin: auto;
+    width: 80px;
+    height: 100px;
+    background: grey;
+    border-radius: 10px;
+}
+
+.icon{
+    margin: auto;
+    background: aqua;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.point{
+    background: brown;
+    width: fit-content;
+    margin: auto;
+}
+
+.nom{
+    background: pink;
+    width: fit-content;
+}
