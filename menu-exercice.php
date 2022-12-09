@@ -19,13 +19,19 @@
         $sql = "SELECT imageExercice FROM Exercice WHERE niveau = ".$niveau ;
         $table = $connection->query($sql);
         $image = $ligne['imageExercice'];
-        while($ligne = $table->fetch()) {    
+        while($ligne = $table->fetch()) {?>
+            <div>
+            <center><img src="<?php echo $ligne['imageExercice'];?>" width="300px"><center>
+            <div> 
+        <?php } 
+
+        /*while($ligne = $table->fetch()) { 
+            
+            
             echo  $ligne['imageExercice'].'</br>';
         } 
 
-
-
-        /*$sql2 = "SELECT imageExercice FROM Exercice WHERE niveau = ".$niveau ;
+        $sql2 = "SELECT imageExercice FROM Exercice WHERE niveau = ".$niveau ;
         $table2 = $connection->query($sql2);
         $ligne2 = $table2->fetch();
         $image2 = $ligne2['imageExercice'];*/
